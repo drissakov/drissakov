@@ -14,7 +14,7 @@
 <td valign="middle">
   <h2>Hi, I'm Damir</h2>
   <p><b>Software Engineering</b> student at <b>Astana IT University</b>.</p>
-  <p>I build Android apps, backend APIs and web interfaces. My projects cover personal finance, appointment booking, learning tools and games.</p>
+  <p>I build Android apps, backend APIs and web interfaces. My projects cover personal finance, urban planning, appointment booking, learning tools and games.</p>
   <p><b>Kotlin · Go · Java · Python · TypeScript</b></p>
 </td>
 </tr>
@@ -45,6 +45,24 @@ A foundation for an appointment booking SaaS. The current stage includes a respo
 **Backend foundation and infrastructure:** `Neon PostgreSQL` `Drizzle ORM` `Better Auth` `Zod` `OpenNext` `Cloudflare Workers`
 
 [View the landing page ↗](https://queueless.queueless.workers.dev)
+
+## Hackathons
+
+### [Astana Budget Planner · QBERS](https://github.com/BAITC-Hacks/hack-b53220ee-qbers)
+
+**HackAlem · Astana Innovations Track · Team hackathon prototype**
+
+As part of **team QBERS**, I worked on a city budget simulation tool for Astana. The application allocates funds across five areas: transport, greenery, social services, safety and city services.
+
+- An interactive **2GIS** map with districts and infrastructure, scenarios for adding stops and planting trees, and before-and-after indicator comparisons.
+- Budget and scenario persistence in **PostgreSQL**, server-side validation and currency conversion.
+- An AI budget allocation assistant using the **OpenAI API**, PDF report generation and interface translation through Google Cloud Translation.
+
+**My contribution:** the team and contact page, shared navigation, webmail links and team portrait previews.
+
+**Project stack:** `JavaScript` `React 19` `Vite 8` `CSS` `dnd-kit` · `Python` `Django` `PostgreSQL` · `2GIS MapGL` `OpenAI API` `Google Cloud Translation` `fpdf2` `Docker Compose`
+
+<sub>Scenario simulation built for a hackathon; the repository is archived.</sub>
 
 ## Web and learning projects
 
@@ -87,9 +105,10 @@ Models students, teachers and groups, with search, filtering and sorting. The co
 | Area | Technologies |
 | :--- | :--- |
 | **Android** | Kotlin, Jetpack Compose, Material 3, Coroutines, Room, Retrofit |
-| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC |
-| **Web** | TypeScript, Next.js, React, Tailwind CSS, HTML, CSS, Bootstrap |
+| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC; Python, Django |
+| **Web** | JavaScript, TypeScript, Next.js, React, Vite, Tailwind CSS, HTML, CSS, Bootstrap |
 | **Data and APIs** | PostgreSQL, Neon, Drizzle ORM, REST, OpenAPI, JSON, CSV |
+| **Maps and AI** | 2GIS MapGL, OpenAI API, Google Cloud Translation |
 | **Desktop and testing** | Python, Tkinter, unittest |
 | **Tools and deployment** | Git, Gradle, Maven, Docker Compose, Caddy, GitHub Actions, Cloudflare Workers |
 

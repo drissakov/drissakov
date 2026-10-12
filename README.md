@@ -14,7 +14,7 @@
 <td valign="middle">
   <h2>Привет, я Дамир</h2>
   <p>Студент <b>Software Engineering</b> в <b>Astana IT University</b>.</p>
-  <p>Создаю Android-приложения, серверные API и веб-интерфейсы. В моих проектах — личные финансы, онлайн-запись, образовательные инструменты и игры.</p>
+  <p>Создаю Android-приложения, серверные API и веб-интерфейсы. В моих проектах — личные финансы, городское планирование, онлайн-запись, образовательные инструменты и игры.</p>
   <p><b>Kotlin · Go · Java · Python · TypeScript</b></p>
 </td>
 </tr>
@@ -45,6 +45,24 @@
 **Серверная основа и инфраструктура:** `Neon PostgreSQL` `Drizzle ORM` `Better Auth` `Zod` `OpenNext` `Cloudflare Workers`
 
 [Открыть лендинг ↗](https://queueless.queueless.workers.dev)
+
+## Хакатоны
+
+### [Astana Budget Planner · QBERS](https://github.com/BAITC-Hacks/hack-b53220ee-qbers)
+
+**HackAlem · Astana Innovations Track · Командный хакатонный прототип**
+
+В составе команды **QBERS** разрабатывал инструмент моделирования городского бюджета Астаны. Приложение распределяет средства между пятью направлениями: транспортом, озеленением, социальной сферой, безопасностью и городскими службами.
+
+- Интерактивная карта **2GIS** с районами и инфраструктурой, сценарии добавления остановок и посадки деревьев, сравнение показателей до и после изменений.
+- Сохранение бюджетов и сценариев в **PostgreSQL**, серверная валидация и конвертация валют.
+- AI-помощник для распределения бюджета через **OpenAI API**, формирование PDF-отчёта и перевод интерфейса через Google Cloud Translation.
+
+**Мой вклад:** страница команды и контактов, общая навигация, ссылки для почтовых сервисов и просмотр портретов участников.
+
+**Стек проекта:** `JavaScript` `React 19` `Vite 8` `CSS` `dnd-kit` · `Python` `Django` `PostgreSQL` · `2GIS MapGL` `OpenAI API` `Google Cloud Translation` `fpdf2` `Docker Compose`
+
+<sub>Моделирование сценариев для хакатона; репозиторий архивирован.</sub>
 
 ## Веб и учебные приложения
 
@@ -87,9 +105,10 @@
 | Направление | Технологии |
 | :--- | :--- |
 | **Android** | Kotlin, Jetpack Compose, Material 3, Coroutines, Room, Retrofit |
-| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC |
-| **Web** | TypeScript, Next.js, React, Tailwind CSS, HTML, CSS, Bootstrap |
+| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC; Python, Django |
+| **Web** | JavaScript, TypeScript, Next.js, React, Vite, Tailwind CSS, HTML, CSS, Bootstrap |
 | **Данные и API** | PostgreSQL, Neon, Drizzle ORM, REST, OpenAPI, JSON, CSV |
+| **Карты и AI** | 2GIS MapGL, OpenAI API, Google Cloud Translation |
 | **Desktop и тесты** | Python, Tkinter, unittest |
 | **Инструменты и развёртывание** | Git, Gradle, Maven, Docker Compose, Caddy, GitHub Actions, Cloudflare Workers |
 
