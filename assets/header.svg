@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Damir Issakov — Software Engineering</title>
+  <desc id="desc">An editorial graphite banner with ivory typography, sand rules, mint accents, and a restrained geometric code motif. Mobile, backend, web.</desc>
+
+  <rect width="1200" height="240" rx="18" fill="#161B1B"/>
+  <path d="M40 32H1160" stroke="#C6AD7B" stroke-opacity=".45"/>
+  <path d="M40 207H1160" stroke="#C6AD7B" stroke-opacity=".25"/>
+
+  <circle cx="47" cy="64" r="5" fill="#B7D5C4"/>
+  <text x="66" y="70" fill="#B7D5C4" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="4">SOFTWARE ENGINEERING</text>
+
+  <text x="39" y="143" fill="#EFE6D5" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">DAMIR ISSAKOV</text>
+
+  <g fill="#C6AD7B" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="3">
+    <text x="43" y="184">MOBILE</text>
+    <text x="166" y="184">BACKEND</text>
+    <text x="319" y="184">WEB</text>
+  </g>
+  <g stroke="#C6AD7B" stroke-width="1" stroke-opacity=".6">
+    <path d="M141 172V185"/>
+    <path d="M294 172V185"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M867 58H831V182H867" stroke="#C6AD7B" stroke-width="3"/>
+    <path d="M1114 58H1150V182H1114" stroke="#C6AD7B" stroke-width="3"/>
+    <path d="M1017 58L971 182" stroke="#EFE6D5" stroke-width="3"/>
+    <path d="M925 87L888 120L925 153M1056 87L1093 120L1056 153" stroke="#B7D5C4" stroke-width="3"/>
+    <path d="M857 78H879M857 162H879M1102 78H1124M1102 162H1124" stroke="#C6AD7B" stroke-opacity=".3"/>
+  </g>
+  <g fill="#B7D5C4">
+    <circle cx="831" cy="120" r="4"/>
+    <circle cx="1150" cy="120" r="4"/>
+  </g>
+</svg>
