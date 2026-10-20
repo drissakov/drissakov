@@ -48,6 +48,22 @@
 
 ## Хакатоны
 
+### [Qadam Astana · QBERS](https://github.com/drissakov/hackatonqbersGDG)
+
+**Досуг в Астане · Командный хакатонный MVP**
+
+Сервис помогает выбрать, куда сходить в Астане, с учётом времени, стартовой точки и бюджета. Предлагает до трёх отдельных вариантов с объяснением выбора, ссылками на источники и оценкой длительности посещения.
+
+- Интерфейс на **казахском, русском и английском**, карта, ручной ввод координат и геолокация по разрешению пользователя.
+- Повторяемый импорт **985 реальных мест из OpenStreetMap** по семи категориям; лексический и векторный поиск по корпусу с сохранением происхождения данных.
+- Отдельный поиск событий; неизвестные цены, часы работы и время в пути явно отмечаются.
+
+**Мой вклад:** frontend на React/TypeScript, локализация kk/ru/en, интеграция API и состояний интерфейса, импорт и проверка качества данных OpenStreetMap, модуль поиска событий и проверки сеансов, тесты интерфейса и API-контрактов.
+
+**Стек проекта:** `React` `TypeScript` `Vite` `i18next` · `Python` `FastAPI` `Pydantic` · `Supabase PostgreSQL` `PostGIS` `pgvector` · `OpenAI Responses` `OpenStreetMap` · `Docker` `GitHub Actions` `Render`
+
+[Открыть демо ↗](https://qadam-astana.onrender.com/)
+
 ### [Astana Budget Planner · QBERS](https://github.com/BAITC-Hacks/hack-b53220ee-qbers)
 
 **HackAlem · Astana Innovations Track · Командный хакатонный прототип**
@@ -105,12 +121,12 @@
 | Направление | Технологии |
 | :--- | :--- |
 | **Android** | Kotlin, Jetpack Compose, Material 3, Coroutines, Room, Retrofit |
-| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC; Python, Django |
+| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC; Python, Django, FastAPI, Pydantic |
 | **Web** | JavaScript, TypeScript, Next.js, React, Vite, Tailwind CSS, HTML, CSS, Bootstrap |
-| **Данные и API** | PostgreSQL, Neon, Drizzle ORM, REST, OpenAPI, JSON, CSV |
-| **Карты и AI** | 2GIS MapGL, OpenAI API, Google Cloud Translation |
-| **Desktop и тесты** | Python, Tkinter, unittest |
-| **Инструменты и развёртывание** | Git, Gradle, Maven, Docker Compose, Caddy, GitHub Actions, Cloudflare Workers |
+| **Данные и API** | PostgreSQL, Supabase, PostGIS, pgvector, Neon, Drizzle ORM, REST, OpenAPI, JSON, CSV |
+| **Карты и AI** | OpenStreetMap, 2GIS MapGL, OpenAI API / Responses, Google Cloud Translation |
+| **Desktop и тесты** | Python, Tkinter, unittest, pytest, Vitest, Testing Library |
+| **Инструменты и развёртывание** | Git, Gradle, Maven, Docker, Docker Compose, Caddy, GitHub Actions, Cloudflare Workers, Render |
 
 <details>
 <summary><b>Остальные репозитории</b></summary>
