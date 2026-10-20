@@ -48,6 +48,22 @@ A foundation for an appointment booking SaaS. The current stage includes a respo
 
 ## Hackathons
 
+### [Qadam Astana · QBERS](https://github.com/drissakov/hackatonqbersGDG)
+
+**Discover Astana · Team hackathon MVP**
+
+A service for choosing where to go in Astana around your time, starting point and budget. Offers up to three independent options with reasons, source links and estimated visit durations.
+
+- A **Kazakh, Russian and English** interface, a map, manual coordinates and opt-in geolocation.
+- A repeatable import of **985 real OpenStreetMap places** across seven categories; lexical and vector search over a corpus with source provenance.
+- Separate event discovery; unknown prices, opening hours and travel times stay explicit.
+
+**My contribution:** the React/TypeScript frontend, kk/ru/en localization, API integration and UI states, OpenStreetMap ingestion and data quality checks, event discovery and session validation modules, and UI and API contract tests.
+
+**Project stack:** `React` `TypeScript` `Vite` `i18next` · `Python` `FastAPI` `Pydantic` · `Supabase PostgreSQL` `PostGIS` `pgvector` · `OpenAI Responses` `OpenStreetMap` · `Docker` `GitHub Actions` `Render`
+
+[View the demo ↗](https://qadam-astana.onrender.com/)
+
 ### [Astana Budget Planner · QBERS](https://github.com/BAITC-Hacks/hack-b53220ee-qbers)
 
 **HackAlem · Astana Innovations Track · Team hackathon prototype**
@@ -105,12 +121,12 @@ Models students, teachers and groups, with search, filtering and sorting. The co
 | Area | Technologies |
 | :--- | :--- |
 | **Android** | Kotlin, Jetpack Compose, Material 3, Coroutines, Room, Retrofit |
-| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC; Python, Django |
+| **Backend** | Go, Gin, GORM; Java, Spring Boot, JDBC; Python, Django, FastAPI, Pydantic |
 | **Web** | JavaScript, TypeScript, Next.js, React, Vite, Tailwind CSS, HTML, CSS, Bootstrap |
-| **Data and APIs** | PostgreSQL, Neon, Drizzle ORM, REST, OpenAPI, JSON, CSV |
-| **Maps and AI** | 2GIS MapGL, OpenAI API, Google Cloud Translation |
-| **Desktop and testing** | Python, Tkinter, unittest |
-| **Tools and deployment** | Git, Gradle, Maven, Docker Compose, Caddy, GitHub Actions, Cloudflare Workers |
+| **Data and APIs** | PostgreSQL, Supabase, PostGIS, pgvector, Neon, Drizzle ORM, REST, OpenAPI, JSON, CSV |
+| **Maps and AI** | OpenStreetMap, 2GIS MapGL, OpenAI API / Responses, Google Cloud Translation |
+| **Desktop and testing** | Python, Tkinter, unittest, pytest, Vitest, Testing Library |
+| **Tools and deployment** | Git, Gradle, Maven, Docker, Docker Compose, Caddy, GitHub Actions, Cloudflare Workers, Render |
 
 <details>
 <summary><b>Other repositories</b></summary>
